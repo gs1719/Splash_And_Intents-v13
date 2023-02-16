@@ -45,6 +45,38 @@ then see this [documentation](https://developer.android.com/develop/ui/views/lau
 </p>
 </details>
 
+<details><summary>View Binding</summary>
+ <p>
+  
+  [Official Documentation](https://developer.android.com/topic/libraries/view-binding)
+  
+  <details><summary>Code 1</summary>
+   <p>
+    
+```.kt
+       val binding = ActivityOrderBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+```
+   </p>
+   </details>
+  
+  <details><summary>Code 2</summary>
+   <p>
+    
+```.kt
+    //inside of class
+    private lateinit var binding: ActivityMainBinding
+    
+    //inside function
+     binding= ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+```
+   </p>
+   </details>
+ </p>  
+</details>
+
+
 ## Project Demo Video
 
 <img src="https://user-images.githubusercontent.com/52217208/219461759-ee9d6106-a826-4613-9956-fa99f58e70d7.webm" width=25% height=25%>
