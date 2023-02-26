@@ -19,8 +19,14 @@ Showcasing some more functinality of intents
         const val KEY = "com.example.v13.MainActivity.KEY"
     }
 ```
+#### code for receiving Data on other class
+```.kt
+ val orderOfCustomer = intent.getStringExtra(MainActivity.KEY)
+```
 </p>
 </details>
+
+
 
 <details><summary>And for Splash Screen</summary>
 <p>
