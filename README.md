@@ -2,19 +2,17 @@
 Splash Screen and Intents
 Completed the whole concept till v12
 Showcasing some more functinality of intents 
-<details><summary>Project Video</summary>
-<p>
 
-## Project Demo Video
+<detials><summary>CODES</summary>
 
-<img src="https://user-images.githubusercontent.com/52217208/219461759-ee9d6106-a826-4613-9956-fa99f58e70d7.webm" width=25% height=25%>
-
-</p>
-</details>
-<details><summary>Intent Code</summary>
-<p>
+ <p>
+  
+  <details><summary>Intent Code</summary>
+   <p>
+    
 
 ### within same app --> Explicit Intent
+
 ```kotlin
  intent = Intent(this,Order::class.java).apply {
                 putExtra(KEY,orderPlaced)
@@ -31,16 +29,13 @@ Showcasing some more functinality of intents
 ```.kt
  val orderOfCustomer = intent.getStringExtra(MainActivity.KEY)
 ```
-</p>
-</details>
-
-<details><summary>And for Splash Screen</summary>
-<p>
-
-<details><summary>Notes in short for me</summary>
- <p>
- 
- #### Example of splash.xml(night)
+   </p>
+  </details>
+  
+  <details><summary>And for Splash Screen</summary>
+   <p>
+    
+#### Example of splash.xml(night)
 ```.xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
@@ -57,9 +52,7 @@ Showcasing some more functinality of intents
 <!--Set this theme to manifest file most important-->
 <!-- add installsplashscreen() to every class not only on main class-->
 ```
- </p>
-</details>
-
+      
 [Video Link 1](https://youtu.be/Q0gRqbtFLcw)
 
 [Video Link 2](https://youtu.be/Loo4i5IrZ4Y)
@@ -82,12 +75,11 @@ then see this [documentation](https://developer.android.com/develop/ui/views/lau
 installSplashScreen()
 ```
 on EACH AND EVERY Activity
-
- 
-</p>
-</details>
-
-<details><summary>View Binding</summary>
+    
+   </p>
+  </details>
+  
+  <details><summary>View Binding</summary>
  <p>
   
   [Official Documentation](https://developer.android.com/topic/libraries/view-binding)
@@ -115,5 +107,17 @@ on EACH AND EVERY Activity
 ```
    </p>
    </details>
- </p>  
+   </p>
+  </details>
+ </p>
+</details>
+
+<detials><summary>VIDEO</summary>
+ <p>
+  
+ ### Project Demo Video
+
+ <img src="https://user-images.githubusercontent.com/52217208/219461759-ee9d6106-a826-4613-9956-fa99f58e70d7.webm">
+  
+ </p>
 </details>
